@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+#add-site h1 img, #manage-accounts h1 img {
+  width: 150px;
+  margin-bottom: 0px;
+}
+#add-site #login-details {
+  padding-top: 5px;
+}
+#app-dialog .modalHeader {
+    background-color: #FF0000;  
+}
+.user-menu {
+  background: #000000;
+}
+.user-menu header {
+  background: #424242;
+}
+.header-main {
+  background: #424242;
+}

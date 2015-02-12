@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/custom.css">
     <script language="javascript">
 
         // We use this code for handling unexpected errors.
@@ -312,9 +313,7 @@
             <li class="nav-item">
                 <a href="#settings/spaceusage/" class="menu1 touch-row"><%= MM.lang.s("spaceusage") %><br></a>
             </li>
-            <li class="nav-item">
-                <a href="#settings/development/" class="menu1 touch-row"><%= MM.lang.s("development") %><br></a>
-            </li>
+           
             <li class="nav-item">
                 <a href="#settings/reportbug/" class="menu1 touch-row"><%= MM.lang.s("reportabug") %><br></a>
             </li>
@@ -332,11 +331,12 @@
 
 <script type="text/template" id="add-site_template">
 <h1 class="app-ico">
-    <img src="img/login-logo.png" alt="Moodle">
+    <center><img src="img/login-logo.png" alt="Moodle"></center>
 </h1>
 <form action="" novalidate>
     <div id="login-details">
         <p>
+		<span style="color:#ffffff;">Enter url</span><br/>
             <input type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
         </p>
         <div id="login-credentials">
